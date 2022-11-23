@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Write a Post"
-date: 2021-05-31
+title: "prueba"
+date: 2022-11-23
 categories: jekyll blogging
 ---
 
