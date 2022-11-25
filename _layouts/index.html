@@ -1,31 +1,9 @@
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-&nbsp;
-<p class="author"><span class="date">{{ post.date }}</span></p>
-&nbsp;
-<div class="content">{{ post.content }}</div>
-{% endfor %}
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-  <a class="previous" href="{{ paginator.previous_page_path }}"> Previous </a>
-  {% else %} <span class="previous">Previous</span> {% endif %}
-  <span class="page_number">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-  <a class="next" href="{{ paginator.next_page_path }}">Next</a> {% else %}
-  <span class="next">Next</span> {% endif %}
-</div>
-&nbsp;
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <!-- This loops through the paginated posts -->
