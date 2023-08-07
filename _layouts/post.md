@@ -40,7 +40,7 @@
     </main>
     <footer>
       <p>
-        <a href="{{ site.baseurl }}/" >© Santi Bello {{ "now" | date: "%Y" }}</a>
+        <a href="{{  '/blog' | append: base.url }}/" >© Santi Bello {{ "now" | date: "%Y" }}</a>
       </p>
      <div>_</div>
     </footer>
