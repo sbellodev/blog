@@ -16,6 +16,8 @@ title: "Santi Bello"
 {: .font-endless .text-right .size-medium}
 
 <br/>
+Soy un desarrollador con más de 2 años de experiencia en el mundo del desarrollo de software.
+En este espacio, compartiré mis conocimientos y experiencias: Te llevaré detrás de escena de mis <span>proyectos</span>, exploraremos <span>desafíos técnicos</span>, y aprenderemos juntos cómo resolver problemas del día a día.
 <br/>
 
 {% for post in site.posts %}
